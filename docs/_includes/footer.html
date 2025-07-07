@@ -1,8 +1,6 @@
 ﻿<footer class="site-footer">
-    {% if site.github.is_project_page %}
+    {% if site.github %}
     <span class="site-footer-owner"><a href="{{ site.url }}">{{ site.title }}</a> is made by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
-    {% else %}
-    <span class="site-footer-owner"><a href="{{ site.url }}">{{ site.title }}</a> is made by <a href="https://github.com/khangtnq">{{ site.github.owner_name }}</a>.</span>
     {% endif %}
     <span class="site-footer-credits">Email <a href="mailto:{{ site.email }}">{{site.email}}</a>.</span>
 </footer>
