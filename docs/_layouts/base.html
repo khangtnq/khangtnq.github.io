@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+
+{%- include head.html -%}
+
+<body>
+
+{% if page.layout == "home" %}
+    {%- include header.html -%}
+{% else %}
+    {%- include pageheader.html -%}
+{% endif %}
+
+<main id="content" class="main-content" role="main">
+    {{ content }}
+
+    {% include footer.html %}
+</main>
+
+</body>
+
+</html>
