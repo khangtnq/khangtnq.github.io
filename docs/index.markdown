@@ -7,12 +7,6 @@ description: I am a game developer with 4 years experience making games. I am sk
   I enjoy making games and play video games, my favorite genres are co-op, RTS, anime, strategy, and base-builder.<br/>
 ---
 
-<style media="screen">
-    .company-image {
-        width: 50%;
-    }
-</style>
-
 <h1>Projects</h1>
 <div>
     {% for worked_game in site.projects %}

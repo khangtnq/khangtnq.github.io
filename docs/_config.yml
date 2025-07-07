@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   I am a game developer with 4 years experience making games. I am skilled at Unity and C#.<br/>
   I enjoy making games and play video games, my favorite genres are co-op, RTS, anime, strategy, and base-builder.<br/>
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://khangtnq.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: khangtnq
 
 # Build settings
