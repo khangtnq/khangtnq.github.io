@@ -16,8 +16,6 @@ gem "github-pages", "~> 232", group: :jekyll_plugins
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
-  # Jekyll plugin to propagate the site.github namespace and set default values for use with GitHub Pages.
-  gem "jekyll-github-metadata"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem

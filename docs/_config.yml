@@ -31,7 +31,6 @@ github_username: khangtnq
 theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
-  - jekyll-github-metadata
     
 # Mark down processor
 markdown: kramdown
